@@ -8,8 +8,9 @@ public class FrequencyWords {
         try(BufferedReader bufferedReader = new BufferedReader(new FileReader(file)))
         {
             String line;
-            while ((line = bufferedReader.readLine())!=null){
+            while ((line= bufferedReader.readLine()) !=null){
                 stringBuilder.append(line.strip());
+                stringBuilder.append(" ");
             }
         } catch (IOException e) {
             e.printStackTrace();

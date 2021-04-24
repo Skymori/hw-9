@@ -13,6 +13,7 @@ public class CreateJson {
                 String line;
                 while ((line = bufferedReader.readLine())!= null){
                     String[] parts = line.strip().split(" ");
+                    if (!parts[0].equals("name")&& !parts[1].equals("age"))
                     users.add(new User(parts[0],Integer.parseInt(parts[1])));
                 }
             } catch (IOException e) {

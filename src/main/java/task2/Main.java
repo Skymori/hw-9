@@ -3,8 +3,7 @@ package task2;
 import java.io.*;
 
 public class Main {
-    public static final String PATH_TASK2 = "src/main/resources/FileTask2/file.txt";
-
+    public static final String PATH_TASK2 = "src/main/resources/FileTask2/file.TXT";
     public static final String PATH_TASK2JSON = "src/main/resources/FileTask2/user.json";
 
     public static void main(String[] args) {
